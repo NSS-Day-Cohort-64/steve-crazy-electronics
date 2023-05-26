@@ -1,0 +1,218 @@
+{
+    "electronics": [
+        {
+            "id": 1,
+            "name": "Smartphone",
+            "price": 699.99,
+            "description": "A high-end smartphone with advanced features.",
+            "category": "Electronics"
+        },
+        {
+            "id": 2,
+            "name": "Wireless Headphones",
+            "price": 149.99,
+            "description": "Bluetooth headphones with noise-cancellation.",
+            "category": "Electronics"
+        },
+        {
+            "id": 3,
+            "name": "Smart TV",
+            "price": 999.99,
+            "description": "A large-screen TV with smart capabilities.",
+            "category": "Electronics"
+        },
+        {
+            "id": 4,
+            "name": "Laptop",
+            "price": 1299.99,
+            "description": "A powerful laptop for gaming and work.",
+            "category": "Electronics"
+        },
+        {
+            "id": 5,
+            "name": "Bluetooth Speaker",
+            "price": 79.99,
+            "description": "Portable speaker with long battery life.",
+            "category": "Electronics"
+        },
+        {
+            "id": 6,
+            "name": "Digital Camera",
+            "price": 399.99,
+            "description": "Capture high-quality photos and videos.",
+            "category": "Electronics"
+        },
+        {
+            "id": 7,
+            "name": "Smart Watch",
+            "price": 249.99,
+            "description": "Monitor your health and receive notifications.",
+            "category": "Electronics"
+        },
+        {
+            "id": 8,
+            "name": "Gaming Console",
+            "price": 499.99,
+            "description": "Play the latest video games with stunning graphics.",
+            "category": "Electronics"
+        },
+        {
+            "id": 9,
+            "name": "Wireless Earbuds",
+            "price": 99.99,
+            "description": "Compact earbuds with great sound quality.",
+            "category": "Electronics"
+        },
+        {
+            "id": 10,
+            "name": "Tablet",
+            "price": 349.99,
+            "description": "A versatile tablet for work and entertainment.",
+            "category": "Electronics"
+        }
+    ],
+    "snacks": [
+        {
+            "id": 1,
+            "name": "Potato Chips",
+            "price": 2.99,
+            "description": "Classic crispy potato chips.",
+            "category": "Snacks"
+        },
+        {
+            "id": 2,
+            "name": "Chocolate Bar",
+            "price": 1.99,
+            "description": "Creamy milk chocolate bar.",
+            "category": "Snacks"
+        },
+        {
+            "id": 3,
+            "name": "Popcorn",
+            "price": 3.49,
+            "description": "Butter-flavored popcorn.",
+            "category": "Snacks"
+        },
+        {
+            "id": 4,
+            "name": "Candy Assortment",
+            "price": 4.99,
+            "description": "A mix of various candies.",
+            "category": "Snacks"
+        },
+        {
+            "id": 5,
+            "name": "Pretzels",
+            "price": 2.49,
+            "description": "Crunchy pretzels with salt.",
+            "category": "Snacks"
+        },
+        {
+            "id": 6,
+            "name": "Granola Bars",
+            "price": 3.99,
+            "description": "Healthy bars packed with nuts and dried fruits.",
+            "category": "Snacks"
+        },
+        {
+            "id": 7,
+            "name": "Trail Mix",
+            "price": 5.99,
+            "description": "A mix of nuts, dried fruits, and chocolate.",
+            "category": "Snacks"
+        },
+        {
+            "id": 8,
+            "name": "Beef Jerky",
+            "price": 6.99,
+            "description": "Tender strips of dried beef.",
+            "category": "Snacks"
+        },
+        {
+            "id": 9,
+            "name": "Gummy Bears",
+            "price": 2.99,
+            "description": "Chewy and fruity gummy bears.",
+            "category": "Snacks"
+        },
+        {
+            "id": 10,
+            "name": "Energy Drink",
+            "price": 2.99,
+            "description": "Boost your energy with a refreshing drink.",
+            "category": "Snacks"
+        }
+    ],
+    "beachware": [
+        {
+            "id": 1,
+            "name": "Beach Towel",
+            "price": 19.99,
+            "description": "Large towel for lounging on the beach.",
+            "category": "Beachware"
+        },
+        {
+            "id": 2,
+            "name": "Sunscreen",
+            "price": 9.99,
+            "description": "Protect your skin from harmful UV rays.",
+            "category": "Beachware"
+        },
+        {
+            "id": 3,
+            "name": "Beach Umbrella",
+            "price": 39.99,
+            "description": "Stay shaded under a colorful beach umbrella.",
+            "category": "Beachware"
+        },
+        {
+            "id": 4,
+            "name": "Swimsuit",
+            "price": 29.99,
+            "description": "Stylish swimsuit for enjoying the water.",
+            "category": "Beachware"
+        },
+        {
+            "id": 5,
+            "name": "Flip Flops",
+            "price": 14.99,
+            "description": "Comfortable sandals for walking on the beach.",
+            "category": "Beachware"
+        },
+        {
+            "id": 6,
+            "name": "Beach Bag",
+            "price": 24.99,
+            "description": "Spacious bag for carrying your beach essentials.",
+            "category": "Beachware"
+        },
+        {
+            "id": 7,
+            "name": "Sunglasses",
+            "price": 19.99,
+            "description": "Protect your eyes from the sun's glare.",
+            "category": "Beachware"
+        },
+        {
+            "id": 8,
+            "name": "Beach Chair",
+            "price": 49.99,
+            "description": "Relax and soak up the sun on a comfortable beach chair.",
+            "category": "Beachware"
+        },
+        {
+            "id": 9,
+            "name": "Beach Ball",
+            "price": 7.99,
+            "description": "Inflatable ball for beach games and fun.",
+            "category": "Beachware"
+        },
+        {
+            "id": 10,
+            "name": "Cooler",
+            "price": 39.99,
+            "description": "Keep your drinks and snacks cool at the beach.",
+            "category": "Beachware"
+        }
+    ]
+}

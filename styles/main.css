@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css?family=Comfortaa|Patua+One");
+
+/*Typography
+--------------------------------------------------------------*/
+body,
+button,
+input,
+select,
+textarea {
+	color: #404040;
+	font-family: "Comfortaa", Arial, sans-serif;
+	font-size: 14px;
+	line-height: 1.5;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: "Patua One", serif;
+	letter-spacing: 2px;
+}
+
+#container {
+	position: relative;
+	z-index: 1;
+}
+
+#container::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-image: url(/img/background.jpeg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	opacity: 0.45;
+	z-index: -1;
+}
+
+.ads {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+
+.ad {
+	flex: 0 1 18%;
+	border: 1px dashed rgb(32 178 170);
+	background-color: rgba(226, 108, 69, 0.6);
+	color: rgb(25 25 112);
+	padding: 1.25rem;
+	margin: 0.5rem;
+}
+
+.ad__header {
+	background-color: rgb(238, 130, 238, 0.6);
+	padding: 0.33rem;
+	font-size: larger;
+	font-weight: 900;
+}
+
+.ad__body {
+	background-color: rgb(0, 255, 255, 0.6);
+	padding: 0.33rem;
+}
+
+.ad__footer {
+	background-color: rgba(234, 233, 224, 0.6);
+	padding: 0.33rem;
+	text-align: right;
+}
+
+.ads::after {
+	content: "";
+	flex: 0 1 18%;
+	padding: 1.25rem;
+	margin: 0.5rem;
+}
+
+@media (max-width:1039px) {
+	.ad {
+		flex: 0 1 25%;
+	}
+
+	.ads::after {
+		content: "";
+		flex: 0 1 25%;
+	}
+}
+
+@media (max-width:779px) {
+	.ad {
+		flex: 0 1 40%;
+	}
+
+	.ads::after {
+		content: "";
+		flex: 0 1 40%;
+	}
+}
